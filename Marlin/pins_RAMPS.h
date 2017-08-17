@@ -154,7 +154,7 @@
   #define RAMPS_D8_PIN   8
 #endif
 #ifndef RAMPS_D9_PIN
-  #define RAMPS_D9_PIN   9
+  #define RAMPS_D9_PIN   -1
 #endif
 #ifndef RAMPS_D10_PIN
   #define RAMPS_D10_PIN 10
@@ -187,7 +187,7 @@
 #endif
 
 #ifndef FAN_PIN
-  #define FAN_PIN 4      // IO pin. Buffer needed
+  #define FAN_PIN -1      // IO pin. Buffer needed
 #endif
 
 //
